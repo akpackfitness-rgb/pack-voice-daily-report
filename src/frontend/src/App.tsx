@@ -1283,7 +1283,7 @@ function AdvancePaymentPage({
   // PIN state
   const [pinInput, setPinInput] = useState("");
   const [pinError, setPinError] = useState("");
-  const [settingPin, setSettingPin] = useState(!adminPin);
+  const [settingPin, setSettingPin] = useState(false);
   const [newPin, setNewPin] = useState("");
   const [confirmPin, setConfirmPin] = useState("");
   const [pinSetError, setPinSetError] = useState("");
