@@ -265,8 +265,8 @@ packages:
       react: ^16.11.0 || ^17 || ^18 || ~19.0.1 || ~19.1.2 || ^19.2.1
       react-dom: ^16.11.0 || ^17 || ^18 || ~19.0.1 || ~19.1.2 || ^19.2.1
 
-  '@auth0/auth0-spa-js@2.18.1':
-    resolution: {integrity: sha512-SKfI1mqsMW7hTBnFaCpcnuYmkfnLR5cv+D4Q/EDN9cL1nfRLN8nLaOXW7YIMkWTT61QMoLzUxDIiAMDHiYmjjQ==}
+  '@auth0/auth0-spa-js@2.18.2':
+    resolution: {integrity: sha512-Dq6ZpwM8wIIs3RLDEmPgXka24J/+X3TKzKpcPu0K9Yw2jFaY5/CGAJCNxBJP1qf3uIyRidICnQ75QhvFbR3HLg==}
 
   '@babel/code-frame@7.27.1':
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
@@ -3018,11 +3018,11 @@ snapshots:
 
   '@auth0/auth0-react@2.16.0(react-dom@19.1.1(react@19.1.1))(react@19.1.1)':
     dependencies:
-      '@auth0/auth0-spa-js': 2.18.1
+      '@auth0/auth0-spa-js': 2.18.2
       react: 19.1.1
       react-dom: 19.1.1(react@19.1.1)
 
-  '@auth0/auth0-spa-js@2.18.1':
+  '@auth0/auth0-spa-js@2.18.2':
     dependencies:
       '@auth0/auth0-auth-js': 1.6.0
       browser-tabs-lock: 1.3.0
